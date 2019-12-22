@@ -34,12 +34,14 @@
 .btn-green-footer {
   background-color: #bfb975 !important;
   color: #FFFFFF !important;
-  border-radius: 4px !important;
+  border-radius: 0px !important;
   border: none !important;
   padding: 10px 20px !important;
   text-align: center !important;
   font-size: 18px !important;
   font-weight: bold !important;
+  position: absolute;
+  right: 0px;
   height: 64px;
 }
 * {
@@ -85,9 +87,14 @@ img {
 }
 .navigation a {
   color: #8D8741 !important;
+  font-size: large;
 }
 .navigation div {
+  font-size: large !important;
   color: #8D8741 !important;
+}
+.navigation span {
+  font-size: large !important;
 }
 .footer {
   width: 100%;
@@ -106,6 +113,7 @@ img {
   width: 100% !important;
 }
 .image-cell {
+  height: 600px;
   background: url('../img/man-on-bench.png') center / cover;
 }
 .main-text-cell {
@@ -113,7 +121,7 @@ img {
   text-align: center;
 }
 .main-text-cell p {
-  font-size: small;
+  font-size: large;
 }
 .story-cell {
   height: 600px;
@@ -135,26 +143,26 @@ img {
   padding: 0;
 }
 .first-image {
-  background: url('/img/01-Alia-Gruppo-Aleimar.jpg') center / cover;
-  height: 320px;
+  background: url('../img/01-Alia-Gruppo-Aleimar.jpg') center / cover;
+  height: 360px;
 }
 .second-image {
-  background: url('/img/02-Bizimana-Refugees-International-Japan.jpg') center / cover;
-  height: 320px;
+  background: url('../img/02-Bizimana-Refugees-International-Japan.jpg') center / cover;
+  height: 360px;
 }
 .third-image {
-  background: url('/img/03-Yara-Concern-Worldwide.jpg') center / cover;
-  height: 320px;
+  background: url('../img/03-Yara-Concern-Worldwide.jpg') center / cover;
+  height: 360px;
 }
 .fourth-image {
-  background: url('/img/04-Sabri-Emfasis-remember-to-add-credit-back-in-since-i-cropped-it-out-of-photo.jpg') center / cover;
-  height: 320px;
+  background: url('../img/04-Sabri-Emfasis-remember-to-add-credit-back-in-since-i-cropped-it-out-of-photo.jpg') center / cover;
+  height: 360px;
 }
 .fifth-image {
-  background: url('/img/05-Achan-Hope-Ofiriha.jpg') center / cover;
-  height: 320px;
+  background: url('../img/05-Achan-Hope-Ofiriha.jpg') center / cover;
+  height: 360px;
 }
 .sixth-image {
-  background: url('/img/06-Shahid-GHNI.jpg') center / cover;
-  height: 320px;
+  background: url('../img/06-Shahid-GHNI.jpg') center / cover;
+  height: 360px;
 }

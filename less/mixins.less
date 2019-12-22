@@ -27,10 +27,12 @@
 
 .image-mixin(@image){
     background: url(@image) center / cover;
-    height: 320px;
+    height: 360px;
 }
 
 .btn-green-footer {
-    .button-mixin(lighten(@green, 20%), @white, 4px) !important;
+    .button-mixin(lighten(@green, 20%), @white, 0px) !important;
+    position: absolute;
+    right: 0px;
     height: 64px;
 }
