@@ -99,6 +99,7 @@ img {
 }
 .main-text-cell {
   padding: 10px;
+  text-align: center;
 }
 .main-text-cell p {
   font-size: small;
