@@ -142,6 +142,9 @@ img {
   margin: 0;
   padding: 0;
 }
+.span-index {
+  z-index: 2;
+}
 .first-image {
   background: url('../img/01-Alia-Gruppo-Aleimar.jpg') center / cover;
   height: 360px;
