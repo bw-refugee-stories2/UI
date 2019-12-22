@@ -169,3 +169,8 @@ img {
   background: url('../img/06-Shahid-GHNI.jpg') center / cover;
   height: 360px;
 }
+.user-list {
+  margin: 0 auto;
+  width: 35%;
+  justify-content: center;
+}
