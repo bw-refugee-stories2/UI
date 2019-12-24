@@ -1,0 +1,38 @@
+// Mixins in here
+.button-mixin(@bg-color, @txt-color, @border-radius)
+{
+    background-color: @bg-color;
+    color: @txt-color;
+    border-radius: @border-radius;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-green{
+    .button-mixin(@green, @white, 0px) !important;
+    height: 64px;
+}
+
+.btn-green-light {
+    .button-mixin(lighten(@green, 20%), @white, 0px) !important;
+    height: 64px;
+}
+
+.btn-green-dark {
+    .button-mixin(darken(@green, 10%), @white, 0px) !important;
+    height: 64px;
+}
+
+.image-mixin(@image){
+    background: url(@image) center / cover;
+    height: 360px;
+}
+
+.btn-green-footer {
+    .button-mixin(lighten(@green, 20%), @white, 0px) !important;
+    position: absolute;
+    right: 0px;
+    height: 64px;
+}

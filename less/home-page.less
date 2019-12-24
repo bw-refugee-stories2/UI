@@ -1,0 +1,60 @@
+.main-content {
+    background-color: @blue;
+}
+.cell-full {
+    width: 100% !important;
+}
+.image-cell {
+  height: 600px;
+  background: url(@header-image) center / cover;
+}
+.main-text-cell {
+  padding: 10px;
+  text-align: center;
+  p {
+    font-size: @body-text;
+  }
+}
+.story-cell {
+  height: 600px;
+  //overflow: hidden;
+   text-overflow: hidden;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 4;
+}
+.story-cell-footer {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 1;
+  background-color: @white;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 
+  0 3px 1px -2px rgba(0,0,0,0.12), 
+  0 1px 5px 0 rgba(0,0,0,0.20);
+  margin: 0;
+  padding: 0;
+}
+.span-index {
+  z-index: 2;
+}
+.first-image {
+  .image-mixin('../img/01-Alia-Gruppo-Aleimar.jpg');
+}
+.second-image {
+  .image-mixin('../img/02-Bizimana-Refugees-International-Japan.jpg');
+}
+.third-image {
+  .image-mixin('../img/03-Yara-Concern-Worldwide.jpg');
+}
+.fourth-image {
+  .image-mixin('../img/04-Sabri-Emfasis-remember-to-add-credit-back-in-since-i-cropped-it-out-of-photo.jpg');
+}
+.fifth-image {
+  .image-mixin('../img/05-Achan-Hope-Ofiriha.jpg');
+}
+.sixth-image {
+  .image-mixin('../img/06-Shahid-GHNI.jpg');
+}
