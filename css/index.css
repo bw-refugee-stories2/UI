@@ -114,7 +114,7 @@ img {
 }
 .image-cell {
   height: 600px;
-  background: url('../img/man-on-bench.png') center / cover;
+  background: url('../img/main-header.png') center / cover;
 }
 .main-text-cell {
   padding: 10px;
