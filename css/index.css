@@ -114,7 +114,7 @@ img {
 }
 .image-cell {
   height: 600px;
-  background: url('../img/main-header__2_.png') center / cover;
+  background: url('../img/man-on-bench.png') center / cover;
 }
 .main-text-cell {
   padding: 10px;
@@ -171,11 +171,20 @@ img {
 }
 .user-list {
   margin: 0 auto;
-  width: 35%;
+  width: 100%;
   justify-content: center;
+  background-color: #F5F5F5;
+}
+.user-list .item {
+  width: 100%;
+}
+.user-list .card {
+  width: 55%;
+  height: 150px;
 }
 .user-list .team {
   margin: 1%;
-  padding: 1%;
-  background-color: #FFFFFF;
+  text-align: center;
+  width: 600px;
+  height: 150px;
 }
