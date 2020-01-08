@@ -174,3 +174,8 @@ img {
   width: 35%;
   justify-content: center;
 }
+.user-list .team {
+  margin: 1%;
+  padding: 1%;
+  background-color: #FFFFFF;
+}
