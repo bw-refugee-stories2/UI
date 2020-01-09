@@ -124,7 +124,7 @@ img {
   font-size: large;
 }
 .story-cell {
-  height: 600px;
+  height: 610px;
   text-overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
