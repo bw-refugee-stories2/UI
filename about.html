@@ -4,6 +4,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Refugee Stories - About Us</title>
 <!-- Import Roboto, and Monserrat fonts from google fonts -->
@@ -16,7 +17,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- Import project css -->
   <link rel="stylesheet" href="css/index.css">
-
+  <link rel='icon' href='favicon.ico' type='image/x-icon' />
 </head>
 
 <body>
@@ -31,10 +32,10 @@
           <!-- Navigation. We hide it in small screens. -->
           <nav class="mdl-navigation mdl-layout--large-screen-only">
             <a class="mdl-navigation__link" href="index.html">Home</a>
-            <!-- <a class="mdl-navigation__link" href="">Stories</a> -->
+            <a class="mdl-navigation__link" href="https://maxicb.github.io/RefugeeRescue/">Refugee Map</a>
             <a class="mdl-navigation__link" href="about.html">About Us</a>
-            <button class='btn-green-light'>Sign Up</button>
-            <button class='btn-green-dark'>Login</button>
+            <button class='btn-green-light' onclick=" window.location.href = 'https://refugeestory.suffyantariq.now.sh/submit' ">Share</button>
+            <button class='btn-green-dark' onclick=" window.location.href = 'https://refugeestory.suffyantariq.now.sh/' ">Stories</button>
           </nav>
         </div>
       </header>
@@ -42,8 +43,10 @@
         <span class="mdl-layout-title">Refugee Stories</span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="index.html">Home</a>
-          <!-- <a class="mdl-navigation__link" href="">Stories</a> -->
-          <a class="mdl-navigation__link" href="about.html">About Us</a>
+        <a class="mdl-navigation__link" href="https://maxicb.github.io/RefugeeRescue/">Refugee Map</a>
+        <a class="mdl-navigation__link" href="about.html">About Us</a>
+        <a class="mdl-navigation__link" href="https://refugeestory.suffyantariq.now.sh/submit" target="_blank">Add Story</a>
+        <a class="mdl-navigation__link" href="https://refugeestory.suffyantariq.now.sh/" target="_blank">View Stories</a>
         </nav>
       </div>
       <main class="mdl-layout__content main-content">
@@ -64,10 +67,10 @@
             </div>
           </div>
           <!-- Group Cells -->
-          <ul class="user-list mdl-list">
-            <li class="mdl-list__item">
-                <div class="github-card card" data-github="MaxiCB" data-width="250" data-height="150" data-theme="default"></div>
-                <div class = "team"><b>UI Developer</p><p>Aaron is from Memphis, TN. He has worked in the communications, electrical and oil/ gas industries, all leading to the pursuance of becoming a software engineer.</p></div>
+          <ul class="user-list">
+            <li class="mdl-list__item item">
+              <div class="github-card card" data-github="MaxiCB" data-width="400" data-height="150" data-theme="default"></div>
+              <div class = "team"><b>UI Developer</b><p>Aaron is from Memphis, TN. He has worked in the communications, electrical and oil/ gas industries, all leading to the pursuance of becoming a software engineer.</p></div>
             </li>
             <li class="mdl-list__item item">
                 <div class="github-card" data-github="briworkman" data-width="400" data-height="150" data-theme="default"></div>
@@ -95,7 +98,7 @@
             </li>
             <li class="mdl-list__item item">
                 <div class="github-card" data-github="Suffyan-T" data-width="400" data-height="150" data-theme="default"></div>
-                <div class = "team"><b>Front End/React II</b><p>Suffyan (Shawn) lives in Sacramento, CA. He is a full-time Lambda Student developing his passion for Full Stack Web Development.</p></div>
+                <div class = "team"><b>Front End/React II</b><p>Suffyan (Shawn) lives in Sacramento, CA. Before Lambda School, he was an Architectural Designer. In his spare time, he hikes, bikes, reads books, collects fountain pens and mechanical watches, and travels.</p></div>
             </li>
           </ul>
       </main>
