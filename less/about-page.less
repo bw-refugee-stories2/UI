@@ -3,17 +3,22 @@
     width: 100%;
     justify-content: center;
     background-color: @light-gray;
+    list-style: none;
     .item{
-        width: 100%;
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        @media @tablet {
+            flex-direction: column;
+        }
+        justify-content: center;
     }
-    .card{
-        width: 55%;
-        height: 150px;
+    iframe {
+        height: 150px !important;
     }
     .team{
         margin: 1%;
         text-align: center;
-        width: 600px;
-        height: 150px;
+        width: 55%;
     }
 }
