@@ -35,8 +35,8 @@
           <a class="mdl-navigation__link" href="index.html">Home</a>
           <a class="mdl-navigation__link" href="https://maxicb.github.io/RefugeeRescue/">Refugee Map</a>
           <a class="mdl-navigation__link" href="about.html">About Us</a>
-          <button class='btn-green-light'>Sign Up</button>
-          <button class='btn-green-dark'>Login</button>
+          <button class='btn-green-light' onclick=" window.location.href = 'https://refugeestory.suffyantariq.now.sh/submit' ">Share</button>
+          <button class='btn-green-dark' onclick=" window.location.href = 'https://refugeestory.suffyantariq.now.sh/' ">Stories</button>
         </nav>
       </div>
     </header>
@@ -46,6 +46,8 @@
         <a class="mdl-navigation__link" href="index.html">Home</a>
         <a class="mdl-navigation__link" href="https://maxicb.github.io/RefugeeRescue/">Refugee Map</a>
         <a class="mdl-navigation__link" href="about.html">About Us</a>
+        <a class="mdl-navigation__link" href="https://refugeestory.suffyantariq.now.sh/submit" target="_blank">Add Story</a>
+        <a class="mdl-navigation__link" href="https://refugeestory.suffyantariq.now.sh/" target="_blank">View Stories</a>
       </nav>
     </div>
     <main class="mdl-layout__content main-content">
@@ -72,7 +74,7 @@
               Every day teams worldwide are hard at work advocating for solutions for refugees, asylum seekers, asylees, Temporary Protected Status recipients, DREAMers and other marginalized people worldwide.
             </p>
             <p>Stories are a way to reach people through their hearts.  By sharing your story, you are helping others understand the hardships that come with being a refugee and help bring an end to this rising problem.</p>
-        <button class='btn-green-light' onclick="window.location.href = '#signUp';">
+        <button class='btn-green-light' onclick=" window.location.href = 'https://refugeestory.suffyantariq.now.sh/submit' ">
           Share Your Story
         </button>
           </div>
@@ -230,6 +232,16 @@
       </div>
     </main>
   </div>
+
+  <script type="text/javascript"> 
+    $('#home-function').click(function() { 
+        window.open("https://refugeestory.suffyantariq.now.sh") 
+    }); 
+
+    $('#add-function').click(function() { 
+        window.open("https://refugeestory.suffyantariq.now.sh/submit") 
+    });
+</script> 
   <!-- Modals -->
   <!-- Alia Modal -->
   <div id="id01" class="w3-modal w3-animate-opacity">
